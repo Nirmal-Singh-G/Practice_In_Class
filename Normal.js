@@ -19,3 +19,12 @@ function findLargest(a, b) {
 }
 
 console.log(findLargest(10, 5));
+function checkEvenOdd(num) {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(checkEvenOdd(7));
