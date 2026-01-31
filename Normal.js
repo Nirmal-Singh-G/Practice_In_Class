@@ -9,3 +9,13 @@ function reverseString(str) {
 }
 
 console.log(reverseString("Nirmal"));
+
+function findLargest(a, b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+
+console.log(findLargest(10, 5));
